@@ -1,5 +1,4 @@
 #img {
-
   height: 100vh;
   background-image: url(./img/banner.jpeg);
   background-position: center;
@@ -38,4 +37,23 @@
 }
 .fa-5x {
   font-size: 5rem;
+}
+
+main#staff img {
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid rgb(161, 161, 161);
+}
+
+.bgimage {
+  background-image: url(./img/map.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+}
+
+main#contact input {
+  border: 0;
+  border-radius: 3px;
+  margin: 0.5rem 0;
 }
