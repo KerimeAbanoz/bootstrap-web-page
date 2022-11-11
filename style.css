@@ -1,8 +1,41 @@
 #img {
-    height: calc(100vh - 56px);
-    background-image: url(./img/banner.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+
+  height: 100vh;
+  background-image: url(./img/banner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+.text {
+  color: purple;
+  font-weight: 300;
+  text-align: center;
+}
+
+.text1 {
+  padding-top: 17rem;
+}
+
+.text2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.button {
+  margin: auto;
+  display: block;
+}
+
+.fas,
+.fa {
+  /* width: 0.5rem;
+  height: 0.5rem; */
+  padding: 2rem;
+  font-weight: 900;
+  /* font-size: 4rem; */
+}
+.fa-5x {
+  font-size: 5rem;
 }

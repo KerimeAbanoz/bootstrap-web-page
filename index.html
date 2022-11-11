@@ -17,13 +17,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>bootstrap webpage</title>
   </head>
   <body>
-
     <!--! navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Kerime Abanoz</a>
         <button
@@ -40,12 +39,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#services">Services</a>
+              <a class="nav-link" aria-current="page" href="#services"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            
+
             <li class="nav-item">
               <a class="nav-link" href="about">About us</a>
             </li>
@@ -56,17 +57,165 @@
               <a class="nav-link" href="contact">Contact us</a>
             </li>
           </ul>
-
         </div>
       </div>
     </nav>
 
     <!-- image -->
-    <div id="img"></div>
-    
+    <div id="img">
+      <div>
+        <h1 class="text text1">The IT Career of Your Dreams Starts Here!</h1>
+        <h3 class="text text2">Harvey Tech!</h3>
+        <button class="text button btn btn-danger text-light btn-lg">
+          Our services
+        </button>
+      </div>
+    </div>
 
-    <main id="services"></main>
-    <main id="portfolio"></main>
+    <main id="services" class="text-center">
+      <div class="text-center mb-5 mt-5">
+        <h2 class="display-3 mb-4">Services</h2>
+        <h5 class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, totam!
+        </h5>
+      </div>
+      <div class="row justify-content-center text-center m-5">
+        <div class="col col-sm-12 col-lg-4">
+          <i class="fas fa-code text-bg-danger rounded-circle fa-5x"></i>
+          <h3>Programming</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-lg-4">
+          <i class="fas fa-palette text-bg-danger rounded-circle fa-5x"></i>
+          <h3>Desing</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-lg-4">
+          <i
+            class="fas fa-network-wired text-bg-danger rounded-circle fa-5x"
+          ></i>
+          <h3>Networking</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main id="portfolio" class="bg-light p-3">
+      <div class="text-center mb-5 mt-5">
+        <h2 class="display-3 mb-4">Portfolio</h2>
+        <h5 class="text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti,
+          dolorum quasi? Neque consectetur odio placeat inventore perferendis
+          quibusdam omnis deleniti.
+        </h5>
+      </div>
+
+      <div class="text-center container row justify-content-end">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/Screenshot 2022-11-10 at 17.55.30.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">It's me!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/Screenshot 2022-11-10 at 17.55.30.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">It's me!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/Screenshot 2022-11-10 at 17.55.30.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">It's me!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/Screenshot 2022-11-10 at 17.55.30.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">It's me!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/Screenshot 2022-11-10 at 17.55.30.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">It's me!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/Screenshot 2022-11-10 at 17.55.30.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">It's me!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <main id="about"></main>
     <main id="staff"></main>
     <main id="contact"></main>
